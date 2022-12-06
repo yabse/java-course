@@ -4,10 +4,10 @@ public class YabseraHomework {
     public static void main(String[] args) {
         System.out.println("******************************************************************************");
 
-        boolean criminal_record1 = false;
-        boolean bank_saving1 = false;
-        boolean good_salary1 = false;
-        boolean social_score1 = false;
+//         boolean criminal_record1 = false;
+//         boolean bank_saving1 = false;
+//         boolean good_salary1 = false;
+//         boolean social_score1 = false;
 
         System.out.println("Do you have criminal record? True/False");
         Scanner in = new Scanner(System.in);
