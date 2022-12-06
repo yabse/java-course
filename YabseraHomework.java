@@ -12,7 +12,7 @@ public class YabseraHomework {
         System.out.println("Do you have criminal record? True/False");
         Scanner in = new Scanner(System.in);
         boolean criminal_rec_result = in.nextBoolean();
-        System.out.println("Enter bank saving: (Number) ");
+        System.out.println("Enter bank saving: (Number only) ");
         int bank_saving_receive = in.nextInt();
         int perYearBank = bank_saving_receive * 12;
         System.out.println("Enter salary in a month. (number only): ");
