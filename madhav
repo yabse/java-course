@@ -12,12 +12,12 @@ public class madhav {
     static int isMadhavArray(int[] a) {
 
         int n = 1;
-        int c = n*(n+1)/2;
+        int c = n * (n + 1) / 2;
         int d = c + n;
         int sum = 0;
         while (c < a.length) {
             sum = 0;
-            if (d>=a.length){
+            if (d >= a.length) {
                 return 0;
             }
             for (int i = c; i <= d; i++) {
