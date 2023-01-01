@@ -1,0 +1,21 @@
+Scanner inpute = new Scanner(System.in);
+        System.out.println("How many members are there?");
+        int numbers = inpute.nextInt();
+        String [] names = new String[numbers];
+        System.out.println("Enter the name of members");
+        int i = 0;
+        while (i<numbers){
+            names[i] = inpute.next();
+            i++;
+        }
+        System.out.println(Arrays.toString(names));
+        System.out.println("Enter how many times it sould be the winner");
+        int ran = inpute.nextInt();
+        Random winner = new Random();
+
+        for (int j =0; j < ran ; j++){
+            int printWinner = winner.nextInt(0, numbers);
+            System.out.println("The " + (j+1) + "th round winner is "+names[printWinner]+" is the winner");
+        }
+
+        System.out.println(" Do while");
