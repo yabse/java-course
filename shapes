@@ -1,0 +1,14 @@
+for (int i=5; i>=0; i--){
+
+            for (int k=i; k>0; k--) {
+                System.out.print(" ");
+            }
+            int n = 5-i;
+            if (n >=0){
+                for (int g=0; g<n; g++){
+                    System.out.print("*");
+                }
+            }
+
+            System.out.println(" ");
+        }
